@@ -1,0 +1,12 @@
+# This is where you list the third-party dependencies of your pipeline
+
+# Examples:
+# pandas
+
+# always be on lookout for optimisations, ex:
+# save 85% download if using CPU torch add `-f https://download.pytorch.org/whl/torch_stable.html`
+
+nbox[serving]==0.9.41 # do not change this
+slack_bolt
+slack_sdk
+json
